@@ -1,13 +1,19 @@
-# Práctica 13 - SPIDER
+# BORME - Chromedriver
 
-La práctica se ejecuta desde el directorio mediante
-el comando:
+Este es un proyecto realizado como parte de un curso en Adquisición de datos. El objetivo es acceder a 
+la página web del registro mercantil y descargar todos los registros de empresas recién creadas para
+la fecha indicada en formato PDF y XML. El proyecto se compone de dos módulos:
+
++ main: permite descargar en local los documentos PDF y XML para la fecha introducida.
++ extra: permite cargar un documento XML a BeatifulSoup.
+
+El proyecto se ejecuta desde el directorio mediante el comando:
 
 `python3 SPIDER MAIN <date/>`
 
 La fecha de entrada debe encontrarse en formato YYYY-MM-DD.
 Dentro del script se formatea para poder ser enviada en el
-formato que la página web (al menos a día de hoy) espera.
+formato que la página web espera.
 
 Si se desea ejecutar el código extra, emplear el comando:
 
